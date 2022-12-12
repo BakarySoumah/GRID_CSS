@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+html{
+    background-color: rgb(218, 247, 247);
+}
+html, body{
+    margin: 0;
+    padding: 0;
+}
+body{
+    counter-reset: section;
+}
+
+.wrapper{
+    width: 1170px;
+    margin: 30px auto;
+    box-sizing: border-box;
+}
+
+.hero{
+    width: 1170px;
+    height: 350px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, blue, 0.06);
+    margin-bottom: 30px;
+    background: url(img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.desc{
+    float: left;
+    position: absolute;
+    top: 15px;
+    left: 50px;
+    text-align: start;
+}
+
+.desc h1{
+    width: 450px;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 25px;
+}
+
+.desc p{
+    width: 500px;
+    text-align: justify;
+    color: #ffffff;
+}
+.img-mine{
+    float: right;
+    position: absolute;
+    bottom: 20px;
+    right: 90px;
+}
+
+.img-mine img{
+    margin: 5px;
+}
+
+.note{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.utile{
+    margin-left: 15px;
+}
+
+.btn .btn-court{
+    width: 160px;
+    height: 40px;
+    padding: 0;
+    border-radius: 15px;
+    background-color: white;
+    position: relative;
+}
+.btn-court p{
+    color: teal;
+    margin: 0;
+    width: 50px;
+    position: absolute;
+    top: 11px;
+    left: 15px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.btn-court img{
+    position: absolute;
+    right: 15px;
+    top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hero1{
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    border-radius: 3px;
+    background-color: #ffffff;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, blue, 0.06);
+}
+.row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 238px;
+    grid-gap: 30px;
+}
+.tall-span{
+    grid-row: span 2;
+    border-radius: 15px;
+}
+.wide-span{
+    grid-column: span 2;
+}
+.tall-span .img1{
+    width: 100%;
+    height: 250px;
+    position: relative;
+}
+.algn1{
+    text-align: center;
+    margin: 20px;
+}
+.sure{
+    margin-top: 0;
+}
+.btn1{
+    margin: auto 80px;
+    background-color: rgb(82, 119, 241);
+    color: white;
+    border-radius: 15px;
+    width: 40%;
+    height: 40px;
+}
+
+.cont-wide{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 15px;
+    position: relative;
+}
+.cont2{
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+.box1{
+    background-image: url(img/box1.jpg);
+    background-size: cover;
+}
+.box2{
+    background-image: url(img/everything-is-just-fine-beautiful-cheerful-african-woman-wearing-bright-scarf-on-head-and-elegant-dress-showing-ok-sign-demonstrating-her-satisfaction-and-happiness-agreeing-with-something.jpg);
+    background-size: cover;
+}
+.box3{
+    background-image: url(img/box3.jpg);
+    background-size: cover;
+}
+.box4{
+    background-image: url(img/box4.jpg);
+    background-size: cover;
+}
+
+.box6{
+    background-image: url(img/star.jpg);
+    background-size: cover;
+}
+.box7{
+    background-image: url(img/sale.jpg);
+    background-size: cover;
+}
+
+.wide-span h1{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0;
+    margin-top: 15px;
+}

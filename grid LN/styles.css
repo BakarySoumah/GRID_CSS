@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgba(194, 133, 173, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin: 10px;
+}
+.container{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas: 
+    "a a a b b b f f f g g g "
+    "a a a b b b f f f g g g"
+    "a a a c c c f f f g g g"
+    "d d d c c c h h i i j j"
+    "d d d e e e h h i i j j"
+    "d d d e e e k k k l l l";
+}
+.element img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.container .element:nth-child(1){
+    grid-area: a;
+}
+.container .element:nth-child(2){
+    grid-area: b;
+}
+.container .element:nth-child(3){
+    grid-area: c;
+}
+.container .element:nth-child(4){
+    grid-area: d;
+}
+.container .element:nth-child(5){
+    grid-area: e;
+}
+.container .element:nth-child(6){
+    grid-area: f;
+}
+.container .element:nth-child(7){
+    grid-area: g;
+}
+.container .element:nth-child(8){
+    grid-area: h;
+}
+.container .element:nth-child(9){
+    grid-area: i;
+}
+.container .element:nth-child(10){
+    grid-area: j;
+}
+.container .element:nth-child(11){
+    grid-area: k;
+}
+.container .element:nth-child(12){
+    grid-area: l;
+}
